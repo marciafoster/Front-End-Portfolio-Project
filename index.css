@@ -1,0 +1,23 @@
+ body {
+    background-color: #eeaeca;
+  }
+  .item {
+    grid-column: 1 / 3;
+    grid-row: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    grid-gap: 10px;
+  }
+  
+  .price {
+    justify-self: end;
+  }
+
+ 
+  .container {
+    background-color: #eeaeca; 
+  }
+  
+  
+  
