@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 30px;
+
+
+ }
+
+ [class ^= "box-"] {
+    display: grid;
+    place-items: center;
+    border: solid 5px rgb(255, 0, 123);
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgb(238,39,126);
+    color: #fff;
+
+ }
+ body {
+    background: linear-gradient(lightpink, beige);
+    height: 100vh;
+ }
+
+ .homepage {
+    height: 90vh;
+    width: 90%;
+    margin: 20px auto;
+
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    gap: 20px;
+ }
+
