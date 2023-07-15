@@ -3,42 +3,103 @@
     padding: 0;
     box-sizing: border-box;
     font-size: 30px;
-
-
- }
-
- [class ^= "box-"] {
+  }
+  
+  [class^="box-"] {
     display: grid;
     place-items: center;
     border: solid 5px rgb(255, 0, 123);
     padding: 10px;
     border-radius: 20px;
-    box-shadow: 0 0 5px rgb(238,39,126);
-    color: #fff;
-
- }
- body {
+    box-shadow: 0 0 5px rgb(238, 39, 126);
+    color: brown;
+  }
+  
+  body {
     background: linear-gradient(lightpink, beige);
     height: 100vh;
- }
-
- .homepage {
+  }
+  
+  .homepage {
     height: 90vh;
     width: 90%;
     margin: 20px auto;
-
     display: grid;
     grid-template-rows: auto 1fr auto;
     gap: 20px;
- }
-
- .about {
+  }
+  
+  .about {
     height: 90vh;
     width: 90%;
     margin: 20px auto;
-
     display: grid;
     grid-template-rows: auto 1fr auto;
     gap: 20px;
- }
+  }
+  
+  .box-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 10px;
+  }
+  
+  .box-2 img {
+    width: 100%; 
+    border-radius: 10px;
+  }
+  
+  
+  .box-2 .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .box-2 .text-container {
+    display: grid;
+    place-items: center;
+    flex-direction: column; 
+  }
+  
+  
+  .box-2 .image-container {
+    grid-column: 1; 
+  }
+    .image-container img {
+        width: 200px;
+        height: 270px; 
+        margin-right: 10px; 
+      }
+  .box-2 .text-container {
+    grid-column: 2; 
+  }
+  
+ 
+  .box-2 .text-container p {
+    text-align: justify;
+  }
+
+  .footer-container {
+    display: flex;
+  }
+  
+  
+  .footer-container a {
+    margin-right: 10px;
+  }
+  
+
+  form {
+    font-size: 12px; 
+  }
+  
+  form label,
+  form input[type="checkbox"],
+  form p.price {
+    font-size: 12px; 
+  }
+  
+  
+  
+  
 
