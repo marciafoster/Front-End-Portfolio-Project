@@ -47,7 +47,7 @@
   .box-2 img {
     width: 100%; 
     border-radius: 10px;
-  }
+  } 
   
   
   .box-2 .image-container {
@@ -55,12 +55,12 @@
     justify-content: center;
     align-items: center;
   }
-  .box-2 .text-container {
+    .box-2 .text-container {
     display: grid;
     place-items: center;
     flex-direction: column; 
   }
-  
+
   
   .box-2 .image-container {
     grid-column: 1; 
@@ -72,7 +72,7 @@
       }
   .box-2 .text-container {
     grid-column: 2; 
-  }
+  } 
   
  
   .box-2 .text-container p {
@@ -89,15 +89,7 @@
   }
   
 
-  form {
-    font-size: 12px; 
-  }
   
-  form label,
-  form input[type="checkbox"],
-  form p.price {
-    font-size: 12px; 
-  }
   
   
   
